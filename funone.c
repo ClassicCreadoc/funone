@@ -7,7 +7,7 @@ int readString(char buff[]);
 int main(){
 	char buff[SIZE];
 	int noChars = 0;
-
+	printf("enter some characters and I will create a string:\n");
 	noChars=readString(buff);
 	printf("String: %s\n",buff);
 	printf("length: %d\n",noChars);
